@@ -1,10 +1,4 @@
-const process = require("process");
-
-const curriculoURL = process.env.CURRICULO_URL;
-
 function toggleMode() {
-
-  alert(curriculoURL)
 
   const html = document.documentElement
   html.classList.toggle("light")
