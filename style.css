@@ -48,7 +48,11 @@ body * {
 }
 
 #profile img {
-  width: 112px;
+  width: 100%;
+  max-width: 150px;
+  max-height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 #profile p {
