@@ -9,9 +9,9 @@ function toggleMode() {
   // substituir a imagem
   if (html.classList.contains("light")) {
     // se tiver light mode, adicionar a imagem light
-    img.setAttribute("src", "https://files.ronierlima.dev/api/profile/ronierlima-light.png")
+    img.setAttribute("src", "https://ronierlima.github.io/atlas/profile/ronierlima.png")
   } else {
     // set tiver sem light mode, manter a imagem normal
-    img.setAttribute("src", "https://files.ronierlima.dev/api/profile/ronierlima.png")
+    img.setAttribute("src", "https://ronierlima.github.io/atlas/profile/ronierlima.png")
   }
 }
